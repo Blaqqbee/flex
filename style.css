@@ -1,0 +1,142 @@
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.header-brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+header nav ul li a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #111;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+.header-cases {
+    display: none;
+
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh-100px);
+    background-image: url(School.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.index-banner h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px #111;
+    line-height: 60px;
+}
+
+.index-banner h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px #111;
+    font-style: italic;
+    line-height: 40px;
+    display: table;
+}
+
+
+.index-links div {
+    width: calc(100%-32px);
+    margin: 16 16px 0;
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #111;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* footer */
+footer {
+    width: (100%-80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    color: #f2f2f2;
+    height: 250px;
+
+}
+
+footer ul {
+    width: fit-content;
+
+    padding: 20px;
+    ;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+    padding: 20 16px;
+}
+
+footer ul li a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f2f2f2;
+    line-height: 30px;
+}
+
+.links-cases {
+    display: none;
+
+}
+
+.footer-icon img {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
